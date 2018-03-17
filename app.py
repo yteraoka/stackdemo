@@ -1,7 +1,7 @@
 from flask import Flask
 from redis import Redis
 
-VERSION = '0.0.2'
+VERSION = '0.0.4'
 
 app = Flask(__name__)
 redis = Redis(host='redis', port=6379)
