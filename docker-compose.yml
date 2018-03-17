@@ -2,7 +2,7 @@ version: '3'
 
 services:
   web:
-    image: yteraoka/stackdemo
+    image: yteraoka/stackdemo:0.0.1
     build: .
     ports:
       - "8000:8000"
